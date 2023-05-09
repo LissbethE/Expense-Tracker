@@ -3,12 +3,27 @@
 <h1 align="center">📊 Expense Tracker.</h1>
 
 </br>
+
+<h3 align="center">100% Responsive | Responsive For All Devices.</h3>
+<h3 align="center">
+  Build Using:
+  <img align="center"  src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img align="center"  src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+</h3>
+
+
+
 </br>
 
 <div align="center">
-  <img alt="expense | Desktop" src="img/big-img.jpg" width="800px">
+  <h2 align="center">💻 Desktop</h2>
   </br>
-  <img alt="expense | Phone" src="img/small-img.jpg" width="350px">
+  <img alt="expense | Desktop" src="img/big-img.jpg" width="90%" >
+  </br>
+  </br>
+  <h2 align="center">📱 Phone</h2>
+  </br>
+  <img alt="expense | Phone" src="img/small-img.jpg" width="90%">
 </div>
 
 </br>
