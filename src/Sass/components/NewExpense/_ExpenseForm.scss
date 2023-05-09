@@ -1,0 +1,44 @@
+.expense-form {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+
+  &__group {
+    flex-grow: 1;
+    flex-basis: 20rem; // 20rem
+    align-self: normal;
+  }
+
+  &__label {
+    display: block;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    margin: 0 0 1rem 1rem;
+  }
+
+  &__input {
+    width: 100%;
+    font: inherit;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 1.2rem;
+    border: 0.2rem solid transparent;
+    transition: all 0.5s;
+
+    &:focus {
+      outline: none;
+      border: 0.2rem solid $color-blue;
+      box-shadow: 0 0.2rem 1rem rgba($color-black, 0.1);
+    }
+  }
+
+  &__actions {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+}

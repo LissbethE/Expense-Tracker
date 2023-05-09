@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+html {
+  font-size: 62.5%;
+
+  ////////////////////////////////////////////////////////////////
+  // if width <= 900px
+  @include respond(tab-portrait) {
+    font-size: 56.25%; // 9px
+  }
+
+  // if width <= 400px
+  @include respond(smallPhone) {
+    font-size: 43.75%; // 7px
+  }
+
+  // width >= 1800px
+  @include respond(big-desktop) {
+    font-size: 100%; // 16px
+  }
+}
+
+body {
+  min-height: 100vh;
+  margin: 0rem;
+
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: $color-grey-dark-4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: $linear-gradient;
+  background-size: 400% 400%;
+  animation: gradient 10s infinite ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}

@@ -1,0 +1,18 @@
+.expense-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.5rem 3rem;
+
+  &__title {
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  &__price {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}

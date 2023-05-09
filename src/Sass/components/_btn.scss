@@ -1,0 +1,29 @@
+.btn {
+  font: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 1.2rem;
+  color: $color-white;
+  background-color: $color-blue;
+
+  transition: all 0.5s;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+}

@@ -1,0 +1,19 @@
+.expense-date {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  border-radius: 1.2rem;
+  box-shadow: 0 0rem 2rem rgba($color-black, 0.15);
+
+  &__month {
+    font-size: 1.5rem;
+  }
+
+  &__year {
+    font-size: 1.3rem;
+    margin-bottom: 0.1rem;
+  }
+
+  &__day {
+    font-size: 2rem;
+  }
+}
